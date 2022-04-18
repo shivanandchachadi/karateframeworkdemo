@@ -12,7 +12,7 @@ public class RunnerTest {
 	@Test
     public void testParallel() {
 		
-		Results results = Runner.path("classpath:resources/samplefeature.feature").tags("~@ignore").outputCucumberJson(true).parallel(2);
+		Results results = Runner.path("C:\\Users\\SONY\\git\\karatefw\\karateapi\\src\\test\\java\\resources\\samplefeature.feature").tags("~@ignore").outputCucumberJson(true).parallel(2);
        
         
     } 
