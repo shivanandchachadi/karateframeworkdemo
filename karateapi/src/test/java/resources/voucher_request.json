@@ -1,0 +1,29 @@
+{
+  "orderRefId": "Ref1233",
+  "offerRefId": "axa1235",
+  "actionCode": [
+    "REDEEM"
+  ],
+  "vouchers": [
+    {
+      "voucherCode": "3660775272",
+      "voucherRefId": "ref1234",
+      "productCategoryCode": "WI-FI_test",
+      "productSubCategoryCode": "SPECIAL is a product of WI-FI,BAGS ect.Test",
+      "productCode": "GWESP_TEST",
+      "sysOwnerDesc": "DL"
+    }
+  ],
+  "additionalProperties": [
+    {
+      "carrierCode": "DLX",
+      "clientId": "ISP_1",
+      "partnerId": "KLM",
+      "voucherRefId": "ref1234",
+      "tailNum": "N12912",
+      "flightNum": "1408",
+      "departureAirportCode": "ATL",
+      "destinationAirportCode": "MSP"
+    }
+  ]
+}
