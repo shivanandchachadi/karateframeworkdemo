@@ -7,11 +7,11 @@ Feature:
 Background:
   	 * configure ssl = true
      * url baseUrl
-     * def voucher_api_path = 'classpath:resources/voucher_request.json'
-		 * def header_path = 'classpath:resources/headers.json'
-		 * def putreqbody_path = 'classpath:resources/putreqbody.json'
-		 * def patchreqbody_path = 'classpath:resources/patchreqbody.json'
-		 * def soapreq_path = 'classpath:resources/xmlRequest.txt'
+     * def voucher_api_path = 'voucher_request.json'
+		 * def header_path = 'headers.json'
+		 * def putreqbody_path = 'putreqbody.json'
+		 * def patchreqbody_path = 'patchreqbody.json'
+		 * def soapreq_path = 'xmlRequest.txt'
  
   @postcall
   Scenario Outline: API call demo-POST Request
