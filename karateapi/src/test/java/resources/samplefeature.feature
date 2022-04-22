@@ -103,7 +103,7 @@ Then status 200
 #--------------------------------------------------------------------------
 
 @csvdata
-Scenario Outline: 
+Scenario Outline: To test the flow of data from csv file to feature file
 Given url 'https://petstore.swagger.io/v2'
 And path 'pet',id
 When method GET
