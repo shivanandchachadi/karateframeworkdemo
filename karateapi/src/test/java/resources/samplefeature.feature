@@ -100,3 +100,15 @@ Then status 200
 * def noOfIndustryStdAircraftTypes_soapapi = tem.length
 * print 'Size from SOAP API is', noOfIndustryStdAircraftTypes_soapapi
 
+#--------------------------------------------------------------------------
+
+@csvdata
+Scenario Outline: 
+Given url 'https://petstore.swagger.io/v2'
+And path 'pet',id
+When method GET
+Then status 404 
+And match $.message == Message
+And print 'id is = ' + id, 'And error message is ' + Message
+Examples:
+|read('data.csv')|    
